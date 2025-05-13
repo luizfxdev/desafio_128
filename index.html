@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decifre a Mensagem Intergaláctica</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mensagem Intergaláctica</h1>
+        <p class="description">
+            🛸 Insira os números codificados abaixo para traduzir a mensagem alienígena!
+        </p>
+
+        <div class="input-group">
+            <input type="text" id="encodedMessage" placeholder="Ex: 19 22 15 15 12">
+        </div>
+
+        <div class="button-group">
+            <button id="revealBtn" style="--clr:#00ffff"><span>DECIFRAR</span><i></i></button>
+            <button id="returnBtn" style="--clr:#ff00ff"><span>RETORNAR</span><i></i></button>
+        </div>
+
+        <div class="result-container">
+            <h2>Mensagem Decifrada:</h2>
+            <div id="result" class="result-box"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
